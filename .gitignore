@@ -1,0 +1,30 @@
+# Ignore build output and CMake artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/rubiks_cube_solver
+
+# Object and intermediate files
+*.o
+*.obj
+*.d
+*.o.d
+
+# Binaries and libraries
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Pattern database (if you intend to re-generate these, keep; otherwise ignore built DB files)
+# /Databases/
